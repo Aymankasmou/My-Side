@@ -4,3 +4,6 @@ from django.shortcuts import render
 
 def index(request):
     return render(request, 'pages/index.html')
+
+def inner(request):
+    return render(request, 'pages/inner-page.html')
