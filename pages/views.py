@@ -7,3 +7,4 @@ def index(request):
 
 def inner(request):
     return render(request, 'pages/inner-page.html')
+

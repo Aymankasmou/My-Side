@@ -7,3 +7,4 @@ class index(models.Model):
 
 class inner(models.Model):
     title = models.CharField(max_length=15)
+
