@@ -10,6 +10,7 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
 
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />                            {% comment %}  {% endcomment %}
   <!-- Favicons -->
   <link href="{% static 'img/favicon.png' %}" rel="icon">   {% comment %}  {% endcomment %}
   <link href="{% static 'img/apple-touch-icon.png' %}" rel="apple-touch-icon">{% comment %}  {% endcomment %}
@@ -63,6 +64,15 @@
 
   <!-- Template Main JS File -->
   <script src="{% static 'js/main.js' %} "></script>
+
+{% comment %}  {% endcomment %}
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>                           
+  <script>
+      AOS.init({
+          once: false
+      });
+  </script>
+{% comment %}  {% endcomment %}
 
 </body>
 
